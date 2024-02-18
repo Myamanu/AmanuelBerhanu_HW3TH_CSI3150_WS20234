@@ -6,30 +6,41 @@
     box-sizing: border-box;
     /*choose my font family*/
     font-family: 'Roboto', Georgia, 'Times New Roman', Times, serif;
+    overflow: hidden;
 }
+
 body{
-    color: #000;
-    width: 100vw;
-    height: 100vh;
-    object-fit: cover;
+    background-color: #000;
+}
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    object-fit: contain;
     
+
+}
+section .first-section{
+    bottom: 0;
 }
 /*style the background and navbar*/
-#bground1 {
+section .first-section .bground1 img{
     width: 100vw;
     height: 100vh;
-    object-fit: cover;
-   
+    object-fit: contain;
+    margin-bottom: 0;
+      
 }
 /*style the headbar section*/
-header{
+.header4firstpage{
    position: absolute;
    top: 40%;
    left: 50%;
    transform: translate(-50%, -50%);
    text-align: center;
 }
-header #logo{
+.header4firstpage #logo{
     width: 15%;
     height: 30%;
     margin-top: 0 50%;
@@ -37,52 +48,46 @@ header #logo{
      line-height: 0.5;
 
 }
-header h1{
+.header4firstpage h1{
     font-weight: 700;
     font-size: 15px;
     text-transform: uppercase;
-    color: white;
-
-   
+    color: white;  
 }
-header p{
+.header4firstpage p{
     font-weight: 100;
     font-size: 35px;
     display: block;
-     margin-top: 0%;
+    margin-top: 0%;
 
 }
-header p span{
+.header4firstpage p span{
     font-weight: 100;
     font-size: 30px;
     display: block;
-    margin-bottom: 0;
     line-height: 0.5;
-     
-    
-
 }
-header #arrow{
+.header4firstpage #arrow{
     width: 25%;
     height: 15%;
     margin-top: -5%;
     background-color: transparent;
     
 }
-header .companyname p{
+.header4firstpage .companyname p{
     font-weight: 900;
     font-size: 6rem;
     margin-top: 5%;
     color: fuchsia;
     text-shadow: darkblue;
 }
-header .companyname span{
+.header4firstpage .companyname span{
     font-weight: 900;
     font-size: 3rem;
     margin-top: 5%;
     color: orangered;
     text-shadow: darkblue;
-
+    
 }
 .downarrow i{
     font-size: 125px;
@@ -90,7 +95,7 @@ header .companyname span{
     width: 125px;
     height: 125;
     position: absolute;
-    top: 75%;
+    top: 80%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -104,26 +109,777 @@ header .companyname span{
     background-color: yellow;
 
 }
-/*style the background and navbar*/
-#bground2 {
+/*style the 2ndpage section*/
+.second-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    object-fit: cover;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+
+}
+.bground2 img{
+    width: 100vw;
+    height: 80vh;
+    object-fit: cover;
+    top: 0;
+}
+/*style the 2ndpage subsection section*/
+.thesecondpage{
+    display: flex;
+    align-items: left;
+    justify-content: space-between;
+    object-fit: cover;
+    text-align: center;
+    position: absolute;
+
+
+}
+.thesecondpage .left-info-col{
+  width: 600px;
+  height: 750px;
+}    
+
+.thesecondpage .left-info-col h5{
+   font-size: 100px;
+   color: fuchsia;
+    width: 100%;
+    height: 250%;
+    object-fit: cover;
+    font-weight: 900;
+    font-family: 'roboto', Georgia, 'Times New Roman', Times, serif;
+}
+.thesecondpage .left-info-col #eth{
+    color: green;
+    display: inline;
+
+}
+.thesecondpage .left-info-col span{
+    color: yellow;
+    display: inline;
+   
+}
+.thesecondpage .left-info-col #pia{
+    color: red;
+    display: inline;
+    
+}
+
+.thesecondpage .right-info-col{
+    width: 700px;
+    height: 100px;
+    background: transparent;
+    margin: 800px, 100px, 0, 300px; 
+}   
+.thesecondpage #right-info-col-p1{
+    font-size: 18px;
+    color:blue;
+    padding-top: 15%;
+    text-align: left;
+    padding-left: 8%;
+   
+    padding-right: 5%;
+}
+.thesecondpage #right-info-col-p2{
+    font-size: 18px;
+    color: blue;
+    padding-left: 8%;
+    text-align: left;
+}
+.readmore-btn {
+    background-color: palegreen;
+    color: blueviolet;
+    padding: 15px 2%;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+    border-radius: 15%;
+    font-weight: 500;
+    margin-left: 0;
+    transition: background 0.3s ease;
+}
+
+.readmore-btn:hover{
+    background-color: turquoise;
+    color: midnightblue;
+    box-sizing: 5px;
+    border-radius: 50%;
+    border-color: goldenrod;
+}
+
+/*style the 3rdpage section*/
+.third-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    object-fit: cover;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+
+}
+.bground3 img{
+    width: 100vw;
+    height: 80vh;
+    object-fit: cover;
+    top: 0;
+}
+.thethirdpage-maincontainer{
+     display: flex;
+    align-items: left;
+    justify-content: space-between;
+    object-fit: cover;
+    text-align: center;
+    position: absolute;
+    flex-direction: column;
+
+}
+.thethirdpage-maincontainer h5{
+    font-size: 42px;
+    color: fuchsia;
+    object-fit: cover;
+    font-weight: 900;
+    margin-top: auto;
+    width: 80vw;
+    height: 65vh;
+    font-family: 'roboto', Georgia, 'Times New Roman', Times, serif;
+}
+.thethirdpage-maincontainer .natural-wonder{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    object-fit: cover;
+    text-align: center;
+    width: 30vw;
+    height: 3vh;
+    position: absolute;
+}
+.thethirdpage-maincontainer .natural-wonder .natural-wonder-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    object-fit: cover;
+    text-align: center;
+    width: 90vw;
+    height: 90vh;
+    
+
+}
+.thethirdpage-maincontainer .natural-wonder .natural-wonder-1 .wonder-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    object-fit: cover;
+    text-align: center;
+    width: 25vw;
+    height: 50vh;
+    object-fit: cover;
+    margin-top: 125%;
+    position: absolute;
+    
+   
+}
+.thethirdpage-maincontainer .natural-wonder .natural-wonder-1 .about-wonder-1{
+     display: flex;
+    align-items: center;
+    justify-content: safe;
+    object-fit: cover;
+    text-align: center;
+    width: 25vw;
+    height: 50vh;
+    object-fit: cover;
+    margin-top: 125%;
+    position: absolute;
+}
+.thethirdpage-maincontainer .natural-wonder .natural-wonder-1 .about-wonder-1 .lalibela{
+    font-size: 20px;
+    font-weight: 900;
+    margin-top: 85%;
+    color:yellow;
+    width: 25vw;
+    height: 10vh;
+    font-family: 'roboto', Georgia, 'Times New Roman', Times, serif
+    
+}
+
+.about-wonder-1 .downarrow i{
+       font-size: 60px;
+       margin-top: 18%;
+       float: left;
+       display: block;
+       width: auto;
+       height: auto;
+}
+.thethirdpage-maincontainer .natural-wonder .natural-wonder-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    object-fit: cover;
+    text-align: center;
+    width: 90vw;
+    height: 90vh;
+   
+
+}
+.thethirdpage-maincontainer .natural-wonder .natural-wonder-2 .wonder-2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    object-fit: cover;
+    text-align: center;
+    width: 25vw;
+    height: 50vh;
+    object-fit: cover;
+    margin-top: 125%;
+    position: absolute;
+    margin-left: 60%;
+   
+}
+
+.thethirdpage-maincontainer .natural-wonder .natural-wonder-2 .about-wonder-2{
+     display: flex;
+    align-items: center;
+    justify-content: safe;
+    object-fit: cover;
+    text-align: center;
+    width: 25vw;
+    height: 50vh;
+    object-fit: cover;
+    margin-top: 125%;
+    position: absolute;
+    margin-left: 60%;
+}
+.thethirdpage-maincontainer .natural-wonder .natural-wonder-2 .about-wonder-2 .renaissance{
+    font-size: 20px;
+    font-weight: 900;
+    margin-top: 85%;
+    color:yellow;
+    width: 25vw;
+    height: 10vh;
+    font-family: 'roboto', Georgia, 'Times New Roman', Times, serif
+    
+}
+
+.about-wonder-2 .downarrow i{
+       font-size: 60px;
+       margin-top: 18%;
+       float: left;
+       display: block;
+       width: auto;
+       height: auto;
+}
+
+.thethirdpage-maincontainer .natural-wonder .natural-wonder-3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    object-fit: cover;
+    text-align: center;
+    width: 90vw;
+    height: 90vh;
+   
+}
+.thethirdpage-maincontainer .natural-wonder .natural-wonder-3 .wonder-3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    object-fit: cover;
+    text-align: center;
+    width: 25vw;
+    height: 50vh;
+    object-fit: cover;
+    margin-top: 125%;
+    position: absolute;
+    margin-left: 120%;
+   
+}
+.thethirdpage-maincontainer .natural-wonder .natural-wonder-3 .about-wonder-3{
+     display: flex;
+    align-items: center;
+    justify-content: safe;
+    object-fit: cover;
+    text-align: center;
+    width: 25vw;
+    height: 50vh;
+    margin-top: 125%;
+    position: absolute;
+    margin-left: 119%;
+}
+.thethirdpage-maincontainer .natural-wonder .natural-wonder-3 .about-wonder-3 .chebra{
+    font-size: 20px;
+    font-weight: 900;
+    margin-top: 85%;
+    color:yellow;
+    width: 25vw;
+    height: 10vh;
+    font-family: 'roboto', Georgia, 'Times New Roman', Times, serif
+    
+}
+
+.about-wonder-3 .downarrow i{
+       font-size: 60px;
+       margin-top: 18%;
+       float: left;
+       display: block;
+       width: auto;
+       height: auto;
+}
+
+.third-section .thethirdpage-maincontainer .readmore-btn {
+    font-size: 15px;
+    bottom: 2%;
+    position: absolute;
+}
+/*style the fourth section*/
+.fourth-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    object-fit: cover;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+}
+.bground4 img{
     width: 100vw;
     height: 100vh;
     object-fit: cover;
-
+    top: 0;
 }
-/*style the headbar section*/
-.secondsection{
-   position: absolute;
-   top: 50%;
-   left: 50%;
-   transform: translate(-50%, -50%);
-   text-align: center;
+/*style the fourthpage subsection*/
+.thefourthpage{
+    display: flex;
+    align-items: left;
+    justify-content: space-between;
+    object-fit: cover;
+    text-align: center;
+    position: absolute;
+    flex-direction: row;
+}
+.thefourthpage .info-to-left{
+  width: 600px;
+  height: 750px;
+}
+.thefourthpage .info-to-left h6{
+   font-size: 65px;
+   color: fuchsia;
+    width: 100%;
+    height: 250%;
+    object-fit: cover;
+    font-weight: 900;
+    font-family: 'roboto', Georgia, 'Times New Roman', 
+}
+
+.thefourthpage .general-info-2-right{
+    width: 800px;
+    height: 300px;
+    background: transparent;
+    
+     
+}
+.thefourthpage .general-info-2-right #info-abt-ethio{
+    font-size: 16px;
+    color: blue;
+    text-align: left;
+    padding-left: 7%;
+}
+.thefourthpage .general-info-2-right .travel-tips h5{
+    font-size: 18px;
+    color: fuchsia;
+    width: 45%;
+    object-fit: cover;
+    font-weight: 900;
+    padding-left: 2%;
+    font-family: 'roboto', Georgia, 'Times New Roman', Times, serif;
+}
+.thefourthpage .general-info-2-right #travel-tips-para{
+    font-size: 16px;
+    color: blue;
+    text-align: left;
+    padding-left: 7%;
+}
+.thefourthpage .general-info-2-right .reservation h5{
+     font-size: 18px;
+    color: fuchsia;
+    width: 10%;
+    object-fit: cover;
+    font-weight: 900;
+    padding-left: 7%;
+    font-family: 'roboto', Georgia, 'Times New Roman', Times, serif;
+}
+.thefourthpage .general-info-2-right #reservation-para{
+    font-size: 16px;
+    color: blue;
+    text-align: left;
+    padding-left: 7%;
+}
+
+/*style the fivth section*/
+.fivth-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    object-fit: cover;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+}
+.bground5 img{
+    width: 100vw;
+    height: 80vh;
+    object-fit: cover;
+    top: 0;
+}
+/*style the fivthpage subsection*/
+.thefivthpage{
+    display: flex;
+    align-items: left;
+    justify-content: space-between;
+    object-fit: cover;
+    text-align: center;
+    position: absolute;
+}
+.thefivthpage .overview-of-the-tour {
+    display: flex;
+    align-items: left;
+    justify-content: space-between;
+    object-fit: cover;
+    text-align: center;
+    position: absolute; 
+}
+.thefivthpage .overview-of-the-tour .Green-color-container {
+    background: green;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    object-fit: cover;
+    position: absolute;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    right: 330px;
+    
+}
+.thefivthpage .overview-of-the-tour .Green-color-container .rate{
+  font-size: 70px;
+  font-family: 'roboto', Georgia, 'Times New Roman', Times, serif;
+  margin-top: 20%;
+  color: paleturquoise;
+}
+.thefivthpage .overview-of-the-tour .Green-color-container p{
+  font-size: 24px;
+  font-weight: 900;
+  padding: 20%;
+  font-family: 'roboto', Georgia, 'Times New Roman', Times, serif;
+}
+
+.thefivthpage .overview-of-the-tour .Yellow1-color-container {
+    background: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    object-fit: cover;
+    position: absolute;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    right: 10px;
    
 }
-section .addistrip1{
-   position: absolute;
-   top: 50%;
-   left: 50%;
-   transform: translate(-50%, -50%);
-   text-align: center;
+.thefivthpage .overview-of-the-tour .Yellow1-color-container .rate{
+    font-size: 70px;
+  font-family: 'roboto', Georgia, 'Times New Roman', Times, serif;
+  margin-top: 20%;
+  color: paleturquoise;
+}
+.thefivthpage .overview-of-the-tour .Yellow1-color-container p{
+  font-size: 24px;
+  font-weight: 900;
+  padding: 20%;
+  font-family: 'roboto', Georgia, 'Times New Roman', Times, serif;
+}
+
+.thefivthpage .overview-of-the-tour .Yellow2-color-container {
+   background: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    object-fit: cover;
+    position: absolute;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    left: 30px;
+    
+}
+.thefivthpage .overview-of-the-tour .Yellow2-color-container .rate{
+    font-size: 70px;
+    font-family: 'roboto', Georgia, 'Times New Roman', Times, serif;
+    margin-top: 20%;
+    color: paleturquoise;
+}
+.thefivthpage .overview-of-the-tour .Yellow2-color-container p{
+  font-size: 22px;
+  padding: 20%;
+  font-weight: 900;
+  font-family: 'roboto', Georgia, 'Times New Roman', Times, serif;
+}
+.thefivthpage .overview-of-the-tour .Red-color-container {
+    background: red;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    object-fit: cover;
+    position: absolute;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    left: 370px;
+}
+.thefivthpage .overview-of-the-tour .Red-color-container .rate{
+   font-size: 70px;
+   font-family: 'roboto', Georgia, 'Times New Roman', Times, serif;
+   margin-top: 20%;
+   color: paleturquoise;
+}
+.thefivthpage .overview-of-the-tour .Red-color-container p{
+  font-size: 24px;
+  padding: 20%;
+  font-weight: 900;
+  font-family: 'roboto', Georgia, 'Times New Roman', Times, serif;
+}
+/*style the sixth section*/
+.sixth-section{
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    object-fit: cover;
+    text-align: center;
+    position: relative;
+
+}
+.bground6 img{
+    width: 100vw;
+    height: 80vh;
+    object-fit: cover;
+    top: 0;
+}
+/*style the sixthpage subsection*/
+.thesixthpage{
+    display: flex;
+    align-items: left;
+    justify-content: space-between;
+    object-fit: cover;
+    text-align: center;
+    position: absolute;
+    flex-direction: column;
+}
+.thesixthpage .testemony-image img{
+    width: 200px;
+    height: 220px;
+    border-radius: 50%;
+    margin-top: 8%;
+}
+.thesixthpage .Testemony-container #testemony-para{
+    font-size: 20px;
+    color:aqua;
+    font-weight: 400;
+    padding-left: 20%;
+    padding-right: 15%;
+}
+.thesixthpage .Testemony-container h5{
+    font-size: 24px;
+    color: mediumspringgreen;
+    text-align: center;
+    padding-bottom: 3%;
+    margin-bottom: 10%;
+}
+.thesixthpage .downarrow i{
+    margin-top: 3%;
+    font-size: 70px;
+    font-weight: 900;
+    color: aqua;
+   
+}
+/*style the seventh section*/
+.seventh-section{
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+    text-align: center;
+
+}
+/*style the seventhpage subsection*/
+.seventh-section{
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    object-fit: cover;
+    text-align: center;
+    
+}
+.theseventhpage{
+     display: flex;
+    justify-content: space-between;
+    position:relative;
+}
+.theseventhpage .destination{
+    width: 33.33%;
+    height: auto;
+    margin: 0;
+
+}
+.theseventhpage .destination img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/*style the eigth section*/
+.eigth-section{
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    object-fit: cover;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+}
+.bground8 img{
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    top: 0;
+}
+/*style the fourthpage subsection*/
+.theeighthpage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+     position: absolute;
+     object-fit: cover;
+    
+}
+.theeighthpage .left-contact-info-col{
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    object-fit: cover;
+    position: absolute;
+    flex-direction: column;
+    text-align: center;
+    width: 600px;
+    height: 70px;
+    margin-bottom: 50px;
+    margin-right: 300px;
+}
+
+.theeighthpage .left-contact-info-col h5{
+    color: fuchsia;
+    font-size: 65px;
+    text-align: left;
+    font-weight: 900;
+    font-family: 'roboto', Georgia, 'Times New Roman', Times, serif;
+}
+
+.theeighthpage .left-contact-info-col .cont-op{
+    color: ivory;
+    font-size: 24px;
+    text-align: left;
+    font-weight: 400;
+    font-family: 'roboto', Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.theeighthpage .left-contact-info-col .Social-medias{
+    display: flex;
+    align-items: right;
+    justify-content: center;
+    background-color: transparent;
+    flex-direction: row;
+    align-items: left;
+    width: 60px;
+    width: 60px;
+    gap: 15px;
+    margin-left: 100px;
+      
+}
+.theeighthpage .left-contact-info-col .Social-medias .sm-icons{
+    font-size: 44px;
+    color: blueviolet;
+    
+
+}
+.theeighthpage .right-contact-info-col{
+    display: flex;
+    align-items: right;
+    justify-content: center;
+    object-fit: cover;
+    text-align: center;
+    position: absolute;
+    flex-direction: column;
+    width: 420px;
+    height: 70px;
+    
+  
+   
+}
+.theeighthpage .right-contact-info-col form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 15%;
+
+}
+.theeighthpage .right-contact-info-col form #user-Name-field{
+    font-size: 20px;
+    font: 60px;
+    background-color: transparent;
+    width: 600px;
+    height: 40px;
+    margin-left: 160%;
+    color: aliceblue;
+    
+}
+.right-contact-info-col form #user-Email-field{
+    font: 60px;
+    font-size: 20px;
+    background-color: transparent;
+    width: 600px;
+    height: 40px;
+    margin-left: 160%;
+    color: aliceblue;
+}
+.right-contact-info-col form #user-Message-field{
+    font-size: 20px;
+    background-color: transparent;
+    width: 600px;
+    height: 150px;
+    margin-left: 160%;
+    color: aliceblue;
+
+}
+.right-contact-info-col .readmore-btn{
+     color: fuchsia;
+     background-color: aqua;
+     font-size: 24px;
+     font-weight: 600;
+     margin-left: 40%;
+     
+     
 }
