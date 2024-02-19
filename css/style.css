@@ -18,7 +18,6 @@ section{
     justify-content: center;
     flex-direction: column;
     object-fit: contain;
-    
 
 }
 section .first-section{
@@ -175,7 +174,7 @@ section .first-section .bground1 img{
 }   
 .thesecondpage #right-info-col-p1{
     font-size: 18px;
-    color:blue;
+    color:aqua;
     padding-top: 15%;
     text-align: left;
     padding-left: 8%;
@@ -184,7 +183,7 @@ section .first-section .bground1 img{
 }
 .thesecondpage #right-info-col-p2{
     font-size: 18px;
-    color: blue;
+    color: aqua;
     padding-left: 8%;
     text-align: left;
 }
@@ -481,7 +480,7 @@ section .first-section .bground1 img{
 }
 .thefourthpage .general-info-2-right #info-abt-ethio{
     font-size: 16px;
-    color: blue;
+    color: aqua;
     text-align: left;
     padding-left: 7%;
 }
@@ -496,7 +495,7 @@ section .first-section .bground1 img{
 }
 .thefourthpage .general-info-2-right #travel-tips-para{
     font-size: 16px;
-    color: blue;
+    color: aqua;
     text-align: left;
     padding-left: 7%;
 }
@@ -511,7 +510,7 @@ section .first-section .bground1 img{
 }
 .thefourthpage .general-info-2-right #reservation-para{
     font-size: 16px;
-    color: blue;
+    color: aqua;
     text-align: left;
     padding-left: 7%;
 }
@@ -795,7 +794,7 @@ section .first-section .bground1 img{
 }
 
 .theeighthpage .left-contact-info-col .cont-op{
-    color: ivory;
+    color: aqua;
     font-size: 24px;
     text-align: left;
     font-weight: 400;
