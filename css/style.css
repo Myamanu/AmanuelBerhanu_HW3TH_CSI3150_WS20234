@@ -8,10 +8,11 @@
     font-family: 'Roboto', Georgia, 'Times New Roman', Times, serif;
     overflow: hidden;
 }
-
+/*style the body*/
 body{
     background-color: #000;
 }
+/*style the container section of the 8 pages of web interface*/
 section{
     display: flex;
     align-items: center;
@@ -20,10 +21,11 @@ section{
     object-fit: contain;
 
 }
+/*style the first section of the web interface*/
 section .first-section{
     bottom: 0;
 }
-/*style the background and navbar*/
+
 section .first-section .bground1 img{
     width: 100vw;
     height: 100vh;
@@ -108,7 +110,9 @@ section .first-section .bground1 img{
     background-color: yellow;
 
 }
+
 /*style the 2ndpage section*/
+
 .second-section{
     display: flex;
     align-items: center;
@@ -208,7 +212,8 @@ section .first-section .bground1 img{
     border-color: goldenrod;
 }
 
-/*style the 3rdpage section*/
+/*style the third section of the webpage*/
+
 .third-section{
     display: flex;
     align-items: center;
@@ -431,7 +436,9 @@ section .first-section .bground1 img{
     bottom: 2%;
     position: absolute;
 }
+
 /*style the fourth section*/
+
 .fourth-section{
     display: flex;
     align-items: center;
@@ -516,6 +523,7 @@ section .first-section .bground1 img{
 }
 
 /*style the fivth section*/
+
 .fivth-section{
     display: flex;
     align-items: center;
@@ -653,7 +661,9 @@ section .first-section .bground1 img{
   font-weight: 900;
   font-family: 'roboto', Georgia, 'Times New Roman', Times, serif;
 }
+
 /*style the sixth section*/
+
 .sixth-section{
     bottom: 0;
     display: flex;
@@ -670,7 +680,7 @@ section .first-section .bground1 img{
     object-fit: cover;
     top: 0;
 }
-/*style the sixthpage subsection*/
+/*style the sixth page subsection*/
 .thesixthpage{
     display: flex;
     align-items: left;
@@ -708,6 +718,7 @@ section .first-section .bground1 img{
    
 }
 /*style the seventh section*/
+
 .seventh-section{
     bottom: 0;
     display: flex;
@@ -745,6 +756,7 @@ section .first-section .bground1 img{
 }
 
 /*style the eigth section*/
+
 .eigth-section{
    
     display: flex;
@@ -761,7 +773,8 @@ section .first-section .bground1 img{
     object-fit: cover;
     top: 0;
 }
-/*style the fourthpage subsection*/
+
+/*style the eigth subsection*/
 .theeighthpage{
     display: flex;
     align-items: center;
@@ -783,6 +796,7 @@ section .first-section .bground1 img{
     height: 70px;
     margin-bottom: 50px;
     margin-right: 300px;
+    
 }
 
 .theeighthpage .left-contact-info-col h5{
@@ -799,7 +813,7 @@ section .first-section .bground1 img{
     text-align: left;
     font-weight: 400;
     font-family: 'roboto', Georgia, 'Times New Roman', Times, serif;
-
+    
 }
 
 .theeighthpage .left-contact-info-col .Social-medias{
@@ -818,8 +832,6 @@ section .first-section .bground1 img{
 .theeighthpage .left-contact-info-col .Social-medias .sm-icons{
     font-size: 44px;
     color: blueviolet;
-    
-
 }
 .theeighthpage .right-contact-info-col{
     display: flex;
@@ -831,9 +843,6 @@ section .first-section .bground1 img{
     flex-direction: column;
     width: 420px;
     height: 70px;
-    
-  
-   
 }
 .theeighthpage .right-contact-info-col form{
     display: flex;
@@ -843,7 +852,6 @@ section .first-section .bground1 img{
     flex-direction: column;
     gap: 5px;
     margin-bottom: 15%;
-
 }
 .theeighthpage .right-contact-info-col form #user-Name-field{
     font-size: 20px;
@@ -871,7 +879,6 @@ section .first-section .bground1 img{
     height: 150px;
     margin-left: 160%;
     color: aliceblue;
-
 }
 .right-contact-info-col .readmore-btn{
      color: fuchsia;
@@ -879,6 +886,4 @@ section .first-section .bground1 img{
      font-size: 24px;
      font-weight: 600;
      margin-left: 40%;
-     
-     
 }
